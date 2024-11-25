@@ -1,4 +1,10 @@
-# Bangladeshi Fresh-Rotten Fruit and Vegetable Detection Using Deep Learning Deployment in Effective Application.
+## Bangladeshi Fresh-Rotten Fruit and Vegetable Detection Using Deep Learning Deployment in Effective Application.
+
+## Publication Link
+
+- **DOI:** [10.1109/CCAI57533.2023.10201244](https://doi.org/10.1109/CCAI57533.2023.10201244)  
+- **Conference:** 2023 IEEE 3rd International Conference on Computer Communication and Artificial Intelligence (CCAI)
+## Description:
 <p>
 This project addresses fruit and vegetable spoilage in Bangladesh using deep learning and computer vision. A device powered by a CNN algorithm was developed to classify fresh and rotten produce, outperforming KNN and SVM models. An Android app was also created for easy access, allowing users to take a photo and get instant results. This innovation aims to reduce waste and benefit farmers, businesses, and the public.
 </p>
