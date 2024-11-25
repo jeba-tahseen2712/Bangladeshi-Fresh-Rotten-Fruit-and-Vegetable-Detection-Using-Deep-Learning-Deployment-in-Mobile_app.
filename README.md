@@ -4,22 +4,22 @@ This project addresses fruit and vegetable spoilage in Bangladesh using deep lea
 </p>
 
 ## Used Libraries:
--opencv-python
--numpy
--tqdm
--python-csv
--sklearn
--tensorflow==2.3.0
--pyppeteer
--keras
--mlxtend
--datetime
-**Remove Image Background**
--opencv-python
--tqdm
--python-csv
--pandas
--rembg
+-opencv-python<br>
+-numpy<br>
+-tqdm<br>
+-python-csv<br>
+-sklearn<br>
+-tensorflow==2.3.0<br>
+-pyppeteer<br>
+-keras<br>
+-mlxtend<br>
+-datetime<br>
+**Remove Image Background**<br>
+-opencv-python<br>
+-tqdm<br>
+-python-csv<br>
+-pandas<br>
+-rembg<br>
 
 ## Data Collection
 <p>We used some commonly available Bangladeshi fruits and vegetables in our research. We have collected our required dataset from Google.com and kaggle.com. we collected two categories’ data fruits and vegetables. For classification, the dataset includes fresh fruits, rotten fruits, and fresh vegetables, rotten vegetables. The fruits data set is divided into 6 types and vegetables is divided into 5 types.</p>
