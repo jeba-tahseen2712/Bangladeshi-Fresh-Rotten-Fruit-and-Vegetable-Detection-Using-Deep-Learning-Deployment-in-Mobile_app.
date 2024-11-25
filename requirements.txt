@@ -1,0 +1,10 @@
+opencv-python
+numpy
+tqdm
+python-csv
+sklearn
+tensorflow==2.3.0
+pyppeteer
+keras
+mlxtend
+datetime
