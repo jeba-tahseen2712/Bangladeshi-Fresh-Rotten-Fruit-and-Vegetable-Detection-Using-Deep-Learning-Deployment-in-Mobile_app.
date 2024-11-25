@@ -73,11 +73,32 @@ This project addresses fruit and vegetable spoilage in Bangladesh using deep lea
 ## **OutPut**
 <p>Here are some output examples. our system can easily detect rotten fruits and vegetables. We can see here when we selected fresh jackfruit then our system detects it and provide 99.28% accuracy beside when we select a rotten jackfruit then our system checked how many percent rotten and it was 87.27% rotten. In this same way is followed by other fruit and vegetable.</p>
 
+**Fresh Fruits:**
 
-Fresh Fruits:
 ![image](https://github.com/user-attachments/assets/e16912af-d29e-4d49-ad66-b9680e740041)
 ![image](https://github.com/user-attachments/assets/65e606c4-f317-4083-b961-fdfa3ff6e070)
 
+## Deployment in Android Application
+
+### 1. Register and Login to Firebase Cloud
+- The first step in the application is user registration. Users must create a profile by providing their name, email address, phone number, and password.
+- After successful registration, users can log in using their phone number and the password they set during registration.
+![image](https://github.com/user-attachments/assets/4f8ac9d4-cd78-4743-a7d2-38f14554195c)
+
+### 2. Select the Target Photo & Send to REST API Server
+- Once logged in, the user selects a target photo either from the gallery or directly captures a picture using the camera.
+- The selected photo is then sent to the REST API server for analysis, where the application tests and provides a result. For example, if the photo shows a fruit affected by a disease, the application will estimate and display the percentage of the fruit that is still good.
+  
+![image](https://github.com/user-attachments/assets/4b3f927a-16bf-424f-a767-604213ac8f64)
+
+### 3. Fetch and Display the Result
+- After the image is analyzed, the application fetches the result and displays it to the user. 
+- The user can choose a fruit or vegetable image from the gallery or use the camera to capture a real-time image. The application will then provide the result based on the selected image.
+
+![image](https://github.com/user-attachments/assets/9a95d340-65b6-485b-8bec-3d1476f05e66)
+![image](https://github.com/user-attachments/assets/8fe3ada0-0d2a-4e62-840f-7dc5ac5f2026)
+
+This process allows users to easily check the condition of fruits and vegetables through a simple and interactive mobile interface.
 
 
 
