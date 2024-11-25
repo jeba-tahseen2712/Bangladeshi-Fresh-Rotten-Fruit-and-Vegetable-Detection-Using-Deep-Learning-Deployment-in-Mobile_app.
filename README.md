@@ -3,23 +3,26 @@
 This project addresses fruit and vegetable spoilage in Bangladesh using deep learning and computer vision. A device powered by a CNN algorithm was developed to classify fresh and rotten produce, outperforming KNN and SVM models. An Android app was also created for easy access, allowing users to take a photo and get instant results. This innovation aims to reduce waste and benefit farmers, businesses, and the public.
 </p>
 
-## Used Libraries:
--opencv-python<br>
--numpy<br>
--tqdm<br>
--python-csv<br>
--sklearn<br>
--tensorflow==2.3.0<br>
--pyppeteer<br>
--keras<br>
--mlxtend<br>
--datetime<br>
-**Remove Image Background**<br>
--opencv-python<br>
--tqdm<br>
--python-csv<br>
--pandas<br>
--rembg<br>
+## Used Libraries
+
+### Core Libraries
+- `opencv-python`: For image processing.
+- `numpy`: For numerical operations.
+- `tqdm`: For creating progress bars.
+- `python-csv`: For handling CSV files.
+- `sklearn`: For machine learning tasks.
+- `tensorflow==2.3.0`: For deep learning models.
+- `keras`: For building and training neural networks.
+- `mlxtend`: For additional machine learning utilities.
+- `datetime`: For date and time operations.
+- `pyppeteer`: For web automation.
+
+### For Removing Image Background
+- `opencv-python`: For image processing.
+- `tqdm`: For creating progress bars.
+- `python-csv`: For handling CSV files.
+- `pandas`: For data manipulation.
+- `rembg`: For background removal from images.
 
 ## Data Collection
 <p>We used some commonly available Bangladeshi fruits and vegetables in our research. We have collected our required dataset from Google.com and kaggle.com. we collected two categories’ data fruits and vegetables. For classification, the dataset includes fresh fruits, rotten fruits, and fresh vegetables, rotten vegetables. The fruits data set is divided into 6 types and vegetables is divided into 5 types.</p>
