@@ -3,6 +3,24 @@
 This project addresses fruit and vegetable spoilage in Bangladesh using deep learning and computer vision. A device powered by a CNN algorithm was developed to classify fresh and rotten produce, outperforming KNN and SVM models. An Android app was also created for easy access, allowing users to take a photo and get instant results. This innovation aims to reduce waste and benefit farmers, businesses, and the public.
 </p>
 
+## Used Libraries:
+-opencv-python
+-numpy
+-tqdm
+-python-csv
+-sklearn
+-tensorflow==2.3.0
+-pyppeteer
+-keras
+-mlxtend
+-datetime
+**Remove Image Background**
+-opencv-python
+-tqdm
+-python-csv
+-pandas
+-rembg
+
 ## Data Collection
 <p>We used some commonly available Bangladeshi fruits and vegetables in our research. We have collected our required dataset from Google.com and kaggle.com. we collected two categories’ data fruits and vegetables. For classification, the dataset includes fresh fruits, rotten fruits, and fresh vegetables, rotten vegetables. The fruits data set is divided into 6 types and vegetables is divided into 5 types.</p>
 
